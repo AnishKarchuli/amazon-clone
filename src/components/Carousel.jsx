@@ -18,10 +18,10 @@ const Carousel = () => {
             className="h-[50%]"
         >
             <SwiperSlide>
-                <img src="../images/carousel_1.jpg" />
+                <img src={"../images/carousel_1.jpg"} />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="../images/carousel_2.jpg" />
+                <img src={"../images/carousel_2.jpg"} />
             </SwiperSlide>
             <SwiperSlide className="bg-black">
                 <video controls muted="muted">
@@ -29,10 +29,10 @@ const Carousel = () => {
                 </video>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="../images/carousel_4.jpg" />
+                <img src={"../images/carousel_4.jpg"} />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="../images/carousel_5.jpg" />
+                <img src={"../images/carousel_5.jpg"} />
             </SwiperSlide>
 
         </Swiper>
